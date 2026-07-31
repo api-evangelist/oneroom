@@ -1,7 +1,27 @@
 aid: oneroom
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oneroom.png
 name: OneRoom
-description: OneRoom is a company surfaced as a portfolio company of bloomberg-beta and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: OneRoom was an online-learning startup founded in 2014 in San Francisco
+  by Scott Forman and Jeff Kolesky and backed by Bloomberg Beta's 2013 fund with a
+  roughly $750K seed round. It operated joinoneroom.com as a marketplace of live,
+  video-based writing courses (fiction, non-fiction, playwriting, poetry, and prose)
+  taught in intimate online classrooms featuring break-outs, head-to-head debates,
+  content sharing, and co-annotation. The company appears defunct — co-founder Jeff
+  Kolesky departed in 2016, and its domain now 302-redirects to a domain-sale listing
+  (hugedomains.com). No product, developer portal, documentation, or public API surface
+  remains. This profile records the honest identity so the API Evangelist network
+  does not re-research a dead portfolio lead.
 url: https://raw.githubusercontent.com/api-evangelist/oneroom/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +29,35 @@ x-backed-by:
 - bloomberg-beta
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-founders:
+- Scott Forman
+- Jeff Kolesky
+x-former-domain: joinoneroom.com
+x-website-status: 'domain-for-sale (302 -> www.hugedomains.com/domain_profile.cfm?d=joinoneroom.com)'
+x-identity-confirmed: '2026-07-20'
+x-identity-source: https://github.com/Bloomberg-Beta/Manual/blob/main/2%20-%20In%20our%20portfolio.md
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- EdTech
+- Online Learning
+- Writing
+- Video Conferencing
+- Marketplace
+- Seed Stage
+- Bloomberg Beta Portfolio
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
